@@ -3,32 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Form</title>
+    <title>Travel Booking Form</title>
     <link rel="stylesheet" href="css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
   </head>
   <body>
     <main>
       <section class="hero">
         <header>
-          <div class="logo">eventsy</div>
+          <div class="logo">Travel Booking</div>
           <nav>
             <ul>
-              <li><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">gallery</a></li>
-              <li><a href="#">blog</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Destinations</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Contact</a></li>
             </ul>
           </nav>
         </header>
+
         <div class="centered-content">
-          <h1>Content Header</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <h1>Travel Booking Form</h1>
+          <p>
+            Complete the form below to register your personal information,
+            headcounts, price range, etc. and find flight bookings ideal for
+            you!
+          </p>
+        </div>
+      </section>
+
+      <section class="form-section">
+        <div class="form-container">
+          <h1>Travel Booking Form</h1>
+          <form>
+            <div class="row">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <div class="row">
+              <input type="text" placeholder="Country" />
+              <input type="text" placeholder="Price Range" />
+            </div>
+            <div class="row">
+              <label>Check-In <input type="date" /></label>
+              <label>Check-Out <input type="date" /></label>
+            </div>
+            <div class="row">
+              <select>
+                <option disabled selected>Adults</option>
+              </select>
+              <select>
+                <option disabled selected>Childrens</option>
+              </select>
+              <select>
+                <option disabled selected>Rooms</option>
+              </select>
+            </div>
+            <textarea placeholder="Message..."></textarea>
+            <button type="submit">Submit</button>
+          </form>
         </div>
       </section>
     </main>
